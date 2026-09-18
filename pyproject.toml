@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "seedvr-api"
+version = "0.1.0"
+description = "Python client for the SeedVR API — ByteDance's SeedVR2 diffusion upscaler for image restoration via a hosted endpoint"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+authors = [{name = "seedvr-dev"}]
+keywords = ["ai api", "seedvr", "seedvr api", "seedvr python", "seedvr2-upscale", "synexa"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = ["httpx>=0.24"]
+
+[project.urls]
+Homepage = "https://github.com/seedvr-dev/seedvr-api"
+Documentation = "https://seedvr-dev.github.io/seedvr-api/"
+"Hosted model" = "https://synexa.ai/explore/bytedance/seedvr2-upscale"
+
+[tool.setuptools.packages.find]
+include = ["seedvr_api*"]
