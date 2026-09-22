@@ -173,4 +173,5 @@ No. This is an independent, MIT-licensed client and is not affiliated with ByteD
 MIT. This is an independent, community-maintained client and is not affiliated with or endorsed by the authors of SeedVR2. Model weights and trademarks belong to their respective owners.
 
 
+
 _Last reviewed: 2026-09-22_
